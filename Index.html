@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9a73d6e8d1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="vid-container">
+        <video autoplay loop muted plays-inline id="bg-clip">
+            <source src="assets/Nike run Ad.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <h1>Nike Run<span>Unleash Your Inner Runner</span></h1>
+            
+            <button>See More</button>
+        </div>
+    </div>
+
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="content left-content">
+                <button class="logo"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+                    <path fill-rule="evenodd" d="M 6.40625 16.800781 C 3.152344 20.621094 0 25.234375 0 28.902344 C 0 31.019531 1.78125 33.996094 6.132813 33.996094 C 8.484375 33.996094 10.820313 33.050781 12.648438 32.320313 C 15.730469 31.085938 49.789063 16.296875 49.789063 16.296875 C 50.117188 16.132813 50.058594 15.925781 49.644531 16.027344 C 49.480469 16.070313 12.566406 26.074219 12.566406 26.074219 C 11.855469 26.273438 11.128906 26.382813 10.421875 26.382813 C 7.230469 26.382813 5.078125 24.851563 5.078125 21.503906 C 5.078125 20.207031 5.484375 18.640625 6.40625 16.800781 Z"></path>
+                    </svg></button>
+                <button class="btn search-bar"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 50 50">
+                    <path d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"></path>
+                    </svg> Search</button>
+            </div>
+            <div class="content right-content">
+                <button class="btn shopping-cart"><svg xmlns="http://www.w3.org/2000/svg" height="17" width="15" viewBox="0 0 448 512"><path d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64l0 48-128 0 0-48zm-48 48l-64 0c-26.5 0-48 21.5-48 48L0 416c0 53 43 96 96 96l256 0c53 0 96-43 96-96l0-208c0-26.5-21.5-48-48-48l-64 0 0-48C336 50.1 285.9 0 224 0S112 50.1 112 112l0 48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/></svg></button>
+                <button class="btn sign-in"><svg xmlns="http://www.w3.org/2000/svg" height="17" width="15" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="category-section">
+        <div class="category-heading"><span>Shop the selection</span></div>
+        <div class="category-container mens-content">
+            <div class="category">
+                <img src="assets/Nike-Men-AD.jpg" alt="">
+                <div class="title category-title"><span>Mens</span></div>
+            </div>
+        </div>
+        <div class="category-container trainer-content">
+            <div class="category">
+                <img src="assets/Nike-Shoe.jpg" alt="">
+                <div class="title category-title"><span>New In</span></div>
+            </div>
+        </div>
+        <div class="category-container sports-content">
+            <div class="category">
+                <img src="assets/Nike-Sports-Shoe.jpg" alt="">
+                <div class="title category-title"><span>Running</span></div>
+            </div>
+        </div>
+        <div class="category-container kids-content">
+        <div class="category">
+            <img src="assets/Nike-kids-AD2.jpg" alt="">
+            <div class="title category-title"><span>Kids</span></div>
+        </div>
+        </div>
+        <div class="category-container womens-content">
+            <div class="category">
+                <img src="assets/Nike-Women-AD2.jpg" alt="">
+                <div class="title category-title"><span>Womens</span></div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="product"> 
+        <h2 class="product-category">best selling</h2>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="assets/NIKE+AIR+MAX+PLUS+OG.png" alt="">
+                    <div class="title">
+                        <span>Air Max Plus OG</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/NIKE+AIR+MAX+PLUS+OG.png" alt="">
+                    <div class="title">
+                        <span>Air Max Plus OG</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/NIKE+AIR+MAX+PLUS+OG.png" alt="">
+                    <div class="title">
+                        <span>Air Max Plus OG</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/NIKE+AIR+MAX+PLUS+OG.png" alt="">
+                    <div class="title">
+                        <span>Air Max Plus OG</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/NIKE+AIR+MAX+PLUS+OG.png" alt="">
+                    <div class="title">
+                        <span>Air Max Plus OG</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/NIKE+AIR+MAX+PLUS+OG.png" alt="">
+                    <div class="title">
+                        <span>Air Max Plus OG</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/NIKE+AIR+MAX+PLUS+OG.png" alt="">
+                    <div class="title">
+                        <span>Air Max Plus OG</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/NIKE+AIR+MAX+PLUS+OG.png" alt="">
+                    <div class="title">
+                        <span>Air Max Plus OG</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/NIKE+AIR+MAX+PLUS+OG.png" alt="">
+                    <div class="title">
+                        <span>Air Max Plus OG</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/NIKE+AIR+MAX+PLUS+OG.png" alt="">
+                    <div class="title">
+                        <span>Air Max Plus OG</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+    <div class="footer">
+        <div class="col">
+            <img src="assets/Nike-logo.jpg" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, dolore dicta! Aliquid mollitia in modi perspiciatis iusto, maiores dolores omnis iure dicta aspernatur autem molestiae laborum soluta, ullam repudiandae accusamus.</p>
+        </div>
+        <div class="col">
+            <h3>Sections</h3>
+            <p>Mens</p>
+            <p>Womens</p>
+            <p>Sports</p>
+            <p>Kids</p>
+            <p>Featured</p>
+            <p>New Releases</p>
+        </div>
+        <div class="col">
+            <h3>Newsletter</h3>
+            <form>
+                <i class="fa-regular far fa-envelope" aria-hidden="true"></i>
+                <input type="email" placeholder="Enter email" required="">
+                <button type="submit"><i class="fa-solid fas fa-arrow-right" aria-hidden="true"></i></button>
+            </form>
+            <div class="media-icons">
+                <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                <i class="fa-brands fa-pinterest" aria-hidden="true"></i>
+                <i class="fa-brands fa-square-x-twitter" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">Ilyasin @ 2025 - All Rights Reserved</p>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
